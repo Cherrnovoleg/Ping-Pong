@@ -77,7 +77,8 @@ while game:   #цикл игры
             ball_speed_x *= -1.05
             ball_speed_y *= -1.05
         
-        window.blit(background,(0,0))
+        
+        h = 10
         player1.update1()
         player1.reset()
         player2.update2()
